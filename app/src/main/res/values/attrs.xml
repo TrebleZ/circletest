@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--圆环饼图-->
+    <declare-styleable name="CircleChart">
+        <attr name="mRaduis" format="dimension" />
+        <attr name="mFirstPoint" format="float" />
+        <attr name="mLinewith" format="dimension" />
+        <attr name="mLineColor" format="color" />
+        <attr name="mFirstPointColor" format="color" />
+        <attr name="mSecondPointColor" format="color" />
+        <attr name="mPointTextsize" format="dimension" />
+        <attr name="mStokeColor" format="color" />
+        <attr name="mTextColor" format="color" />
+    </declare-styleable>
+
+</resources>

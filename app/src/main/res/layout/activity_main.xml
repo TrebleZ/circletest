@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activitycolor"
+    android:orientation="vertical"
+    tools:context="com.test.circletest.MainActivity">
+
+    <com.test.circletest.CircleChart
+        android:id="@+id/cir_point"
+        android:layout_width="240dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80px"
+        app:mFirstPoint="10"
+        app:mFirstPointColor="@color/textorange"
+        app:mLinewith="5dp"
+        app:mPointTextsize="14sp"
+        app:mRaduis="60dp"
+        app:mSecondPointColor="@color/orange"
+        app:mStokeColor="@color/activitycolor"
+        app:mTextColor="@color/textcolordark" />
+</LinearLayout>
